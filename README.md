@@ -2,20 +2,27 @@
 
 # Baohang Zhang
 
-**Ph.D. Candidate in Artificial Intelligence and Evolutionary Optimization**<br />
-University of Toyama, Japan
+**Ph.D. in Engineering, University of Toyama, Japan**<br />
+Degree awarded in March 2026
 
 [Email](mailto:zbhsyx@163.com) | [Google Scholar](https://scholar.google.com.hk/citations?user=kKfWIUkAAAAJ&hl=zh-CN) | [ORCID](https://orcid.org/0000-0002-8612-0649) | [GitHub](https://github.com/zbh0528)
 
 <br />
 
-<img alt="Banban original waving frames" src="./assets/ban-ban-wave.svg" width="86" />
+<img alt="BanBan under soft animated sakura rain" src="./assets/banban-sakura-stage.svg" width="190" />
+
+<br />
+
+<sub><b>BanBan</b> keeps the optimization loop moving.</sub><br />
+<sub>虽然他去了鼠星，但我很想他。</sub>
 
 </div>
 
 ---
 
 ## Research Overview
+
+I received the **Ph.D. degree in Engineering** from the **University of Toyama, Japan**, in **March 2026**.
 
 I study **evolutionary computation**, **expensive optimization**, and **wind energy optimization**, with a focus on optimization methods that remain reliable when evaluations are costly, design variables are coupled, and engineering constraints are explicit.
 
