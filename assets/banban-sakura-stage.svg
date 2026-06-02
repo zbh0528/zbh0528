@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" width="320" height="260" role="img" aria-labelledby="title desc">
+  <title id="title">BanBan under sakura rain</title>
+  <desc id="desc">A lightweight animated stage that keeps the original BanBan image and adds subtle motion with sakura rain.</desc>
+  <defs>
+    <path id="petal" d="M0 -7C6 -5 8 1 3 7C1 10 -2 10 -4 7C-8 1 -6 -5 0 -7Z"/>
+    <style>
+      .petalA { fill: #f6b6c8; opacity: .62; }
+      .petalB { fill: #f9cbd8; opacity: .52; }
+      .petalC { fill: #f2a9bf; opacity: .44; }
+      .branch { fill: none; stroke: #d9b0ba; stroke-width: 1.2; stroke-linecap: round; opacity: .32; }
+    </style>
+  </defs>
+
+  <rect width="320" height="260" fill="#ffffff" opacity="0"/>
+  <path class="branch" d="M18 62C64 34 102 49 144 22"/>
+  <path class="branch" d="M176 26C216 50 246 42 302 70"/>
+
+  <g transform="translate(48 -16)">
+    <use href="#petal" class="petalA"/>
+    <animateTransform attributeName="transform" type="translate" values="48 -16;72 230" dur="6.4s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="0;220" dur="6.4s" repeatCount="indefinite" additive="sum"/>
+  </g>
+  <g transform="translate(104 -42)">
+    <use href="#petal" class="petalB"/>
+    <animateTransform attributeName="transform" type="translate" values="104 -42;76 230" dur="7.2s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="20;260" dur="7.2s" repeatCount="indefinite" additive="sum"/>
+  </g>
+  <g transform="translate(160 -24)">
+    <use href="#petal" class="petalC"/>
+    <animateTransform attributeName="transform" type="translate" values="160 -24;194 230" dur="5.9s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="-18;210" dur="5.9s" repeatCount="indefinite" additive="sum"/>
+  </g>
+  <g transform="translate(224 -50)">
+    <use href="#petal" class="petalA"/>
+    <animateTransform attributeName="transform" type="translate" values="224 -50;268 230" dur="7.8s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="12;250" dur="7.8s" repeatCount="indefinite" additive="sum"/>
+  </g>
+  <g transform="translate(282 -22)">
+    <use href="#petal" class="petalB"/>
+    <animateTransform attributeName="transform" type="translate" values="282 -22;250 230" dur="6.7s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="-10;230" dur="6.7s" repeatCount="indefinite" additive="sum"/>
+  </g>
+
+  <ellipse cx="160" cy="232" rx="54" ry="8" fill="#d7c6c0" opacity=".24">
+    <animate attributeName="rx" values="49;58;49" dur="1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".16;.28;.16" dur="1s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <g transform-origin="160 132">
+    <animateTransform attributeName="transform" type="translate" values="-2 0;2 -6;-2 0" dur="1s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="-2 160 132;2 160 132;-2 160 132" dur="2s" repeatCount="indefinite" additive="sum"/>
+    <image x="64" y="42" width="192" height="208" href="https://raw.githubusercontent.com/zbh0528/zbh0528/main/assets/ban-ban-wave.svg"/>
+  </g>
+</svg>
