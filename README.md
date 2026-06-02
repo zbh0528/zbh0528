@@ -32,18 +32,6 @@ My current work connects structure-aware evolutionary search with offshore wind 
 
 ---
 
-## Research Map
-
-<div align="center">
-
-<img alt="Research map for constrained evolutionary optimization in wind energy systems" src="./assets/research-snapshot.svg" width="820" />
-
-<sub>Constrained problem space -> evolutionary search -> engineering evaluation -> reproducible evidence.</sub>
-
-</div>
-
----
-
 ## Selected Publications
 
 **Journal articles**
