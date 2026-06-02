@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 430" width="1000" height="430" role="img" aria-labelledby="title desc">
+  <title id="title">Research snapshot</title>
+  <desc id="desc">A clean academic research dashboard showing method layer, optimization loop, engineering application layer, and reproducible artifact trail.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbfdff"/>
+      <stop offset="1" stop-color="#eef4f7"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3a6ea5"/>
+      <stop offset=".52" stop-color="#2a9d8f"/>
+      <stop offset="1" stop-color="#7c5c8a"/>
+    </linearGradient>
+    <filter id="shadow" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#314057" flood-opacity=".13"/>
+    </filter>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#d7e0e7" stroke-width=".7" opacity=".55"/>
+    </pattern>
+    <style>
+      text {
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        fill: #172238;
+      }
+      .mono {
+        font-family: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+        letter-spacing: .4px;
+      }
+      .small { font-size: 13px; fill: #5e6a78; }
+      .micro { font-size: 11px; fill: #6d7887; }
+      .heading { font-size: 19px; font-weight: 700; }
+      .panel-title { font-size: 14px; font-weight: 700; fill: #253145; }
+      .chip-text { font-size: 12px; font-weight: 650; }
+      .flow-line {
+        stroke: url(#flow);
+        stroke-width: 3.2;
+        fill: none;
+        stroke-linecap: round;
+        stroke-dasharray: 9 10;
+      }
+    </style>
+  </defs>
+
+  <rect width="1000" height="430" rx="22" fill="#f5f8fb"/>
+  <rect x="18" y="18" width="964" height="394" rx="20" fill="url(#panel)" stroke="#d9e3ea" filter="url(#shadow)"/>
+  <rect x="18" y="18" width="964" height="394" rx="20" fill="url(#grid)" opacity=".6"/>
+
+  <g transform="translate(44 50)">
+    <text class="heading" x="0" y="0">Research Snapshot</text>
+    <text class="small" x="0" y="25">Structure-aware evolutionary search under limited evaluation budgets</text>
+  </g>
+
+  <g transform="translate(680 38)">
+    <rect x="0" y="0" width="78" height="28" rx="14" fill="#e8f3f2" stroke="#b9d8d4"/>
+    <text class="chip-text" x="39" y="18" text-anchor="middle" fill="#1e6f66">EC</text>
+    <rect x="90" y="0" width="116" height="28" rx="14" fill="#eef2fb" stroke="#c7d3ee"/>
+    <text class="chip-text" x="148" y="18" text-anchor="middle" fill="#315f9a">Expensive Opt.</text>
+    <rect x="218" y="0" width="96" height="28" rx="14" fill="#f8f0e3" stroke="#dec89e"/>
+    <text class="chip-text" x="266" y="18" text-anchor="middle" fill="#846029">Wind Energy</text>
+  </g>
+
+  <g transform="translate(44 100)">
+    <rect width="248" height="238" rx="16" fill="#ffffff" stroke="#dfe7ee"/>
+    <text class="panel-title" x="22" y="34">Method Layer</text>
+    <text class="micro mono" x="22" y="56">search operators and priors</text>
+
+    <g transform="translate(22 82)">
+      <rect width="198" height="32" rx="10" fill="#e8f3f2" stroke="#bddbd8"/>
+      <circle cx="18" cy="16" r="5" fill="#2a9d8f">
+        <animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <text class="chip-text" x="35" y="21">Differential Evolution</text>
+    </g>
+    <g transform="translate(22 124)">
+      <rect width="198" height="32" rx="10" fill="#eef2fb" stroke="#c7d3ee"/>
+      <circle cx="18" cy="16" r="5" fill="#3a6ea5">
+        <animate attributeName="opacity" values=".55;1;.55" dur="2.9s" repeatCount="indefinite"/>
+      </circle>
+      <text class="chip-text" x="35" y="21">Geometry-guided GA</text>
+    </g>
+    <g transform="translate(22 166)">
+      <rect width="198" height="32" rx="10" fill="#f3eef7" stroke="#dacbe5"/>
+      <circle cx="18" cy="16" r="5" fill="#7c5c8a">
+        <animate attributeName="r" values="5;6.8;5" dur="2.7s" repeatCount="indefinite"/>
+      </circle>
+      <text class="chip-text" x="35" y="21">Swarm Intelligence</text>
+    </g>
+    <g transform="translate(22 208)">
+      <rect width="198" height="32" rx="10" fill="#f8f0e3" stroke="#dec89e"/>
+      <circle cx="18" cy="16" r="5" fill="#d4a373">
+        <animate attributeName="opacity" values=".58;1;.58" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+      <text class="chip-text" x="35" y="21">Non-revisiting Search</text>
+    </g>
+  </g>
+
+  <g transform="translate(326 100)">
+    <rect width="328" height="238" rx="16" fill="#ffffff" stroke="#dfe7ee"/>
+    <text class="panel-title" x="22" y="34">Optimization Loop</text>
+    <text class="micro mono" x="22" y="56">candidate - evaluator - objective - update</text>
+
+    <path class="flow-line" d="M92 102 C132 76 196 76 236 102">
+      <animate attributeName="stroke-dashoffset" from="38" to="0" dur="2.8s" repeatCount="indefinite"/>
+    </path>
+    <path class="flow-line" d="M250 123 C253 160 226 192 182 198">
+      <animate attributeName="stroke-dashoffset" from="38" to="0" dur="2.8s" repeatCount="indefinite"/>
+    </path>
+    <path class="flow-line" d="M146 198 C100 190 74 158 79 122">
+      <animate attributeName="stroke-dashoffset" from="38" to="0" dur="2.8s" repeatCount="indefinite"/>
+    </path>
+
+    <g transform="translate(72 82)">
+      <circle cx="0" cy="34" r="27" fill="#eef2fb" stroke="#adc0e2" stroke-width="2"/>
+      <text class="micro" x="0" y="31" text-anchor="middle">candidate</text>
+      <text class="micro" x="0" y="45" text-anchor="middle">layout</text>
+    </g>
+    <g transform="translate(254 82)">
+      <circle cx="0" cy="34" r="27" fill="#e8f3f2" stroke="#a8d4cf" stroke-width="2"/>
+      <text class="micro" x="0" y="31" text-anchor="middle">wake</text>
+      <text class="micro" x="0" y="45" text-anchor="middle">cable</text>
+    </g>
+    <g transform="translate(164 177)">
+      <circle cx="0" cy="20" r="29" fill="#f8f0e3" stroke="#dec89e" stroke-width="2"/>
+      <text class="micro" x="0" y="17" text-anchor="middle">LCOE</text>
+      <text class="micro" x="0" y="31" text-anchor="middle">objective</text>
+    </g>
+    <circle cx="164" cy="118" r="7" fill="#7c5c8a">
+      <animate attributeName="cy" values="118;112;118" dur="1.9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g transform="translate(690 100)">
+    <rect width="268" height="238" rx="16" fill="#ffffff" stroke="#dfe7ee"/>
+    <text class="panel-title" x="22" y="34">Engineering Layer</text>
+    <text class="micro mono" x="22" y="56">wind energy decision variables</text>
+
+    <g transform="translate(28 88)">
+      <text class="small" x="0" y="0">Layout</text>
+      <rect x="0" y="12" width="204" height="11" rx="5.5" fill="#edf2f6"/>
+      <rect x="0" y="12" width="168" height="11" rx="5.5" fill="#3a6ea5">
+        <animate attributeName="width" values="138;178;168" dur="3.2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <g transform="translate(28 130)">
+      <text class="small" x="0" y="0">Cable routing</text>
+      <rect x="0" y="12" width="204" height="11" rx="5.5" fill="#edf2f6"/>
+      <rect x="0" y="12" width="150" height="11" rx="5.5" fill="#2a9d8f">
+        <animate attributeName="width" values="125;160;150" dur="3.6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <g transform="translate(28 172)">
+      <text class="small" x="0" y="0">Yaw control</text>
+      <rect x="0" y="12" width="204" height="11" rx="5.5" fill="#edf2f6"/>
+      <rect x="0" y="12" width="132" height="11" rx="5.5" fill="#7c5c8a">
+        <animate attributeName="width" values="108;148;132" dur="3.4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <g transform="translate(190 46)" stroke="#aebdca" stroke-width="1.4" fill="none">
+      <path d="M8 72L40 50L70 66L42 88Z"/>
+      <path d="M40 50V22M40 50L22 34M40 50L58 35" stroke="#2a9d8f"/>
+      <path d="M70 66V38M70 66L54 50M70 66L86 50" stroke="#3a6ea5"/>
+      <path d="M8 72V44M8 72L-8 56M8 72L24 56" stroke="#7c5c8a"/>
+    </g>
+  </g>
+
+  <g transform="translate(44 362)">
+    <rect width="914" height="28" rx="14" fill="#172238"/>
+    <text class="micro mono" x="28" y="18" fill="#dce8f2">artifact trail</text>
+    <circle cx="150" cy="14" r="4" fill="#2a9d8f"/>
+    <text class="micro" x="164" y="18" fill="#f8fbfd">DOI-linked papers</text>
+    <circle cx="330" cy="14" r="4" fill="#3a6ea5"/>
+    <text class="micro" x="344" y="18" fill="#f8fbfd">open code</text>
+    <circle cx="474" cy="14" r="4" fill="#d4a373"/>
+    <text class="micro" x="488" y="18" fill="#f8fbfd">evaluation budgets</text>
+    <circle cx="678" cy="14" r="4" fill="#7c5c8a"/>
+    <text class="micro" x="692" y="18" fill="#f8fbfd">traceable figures and data</text>
+  </g>
+</svg>
