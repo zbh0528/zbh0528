@@ -13,7 +13,7 @@ Degree awarded in March 2026
 
 <br />
 
-<sub><b>BanBan</b> keeps the optimization loop moving.</sub><br />
+<sub><b>斑斑</b> keeps the research loop moving.</sub><br />
 <sub>虽然他去了鼠星，但我很想他。</sub>
 
 </div>
@@ -89,7 +89,7 @@ My current work connects structure-aware evolutionary search with offshore wind 
 ## Open Repositories
 
 - [WFLO-GGA](https://github.com/zbh0528/WFLO-GGA)<br />
-  Geometry-guided optimization for integrated offshore wind farm layout and electrical cable routing.
+  Geometry-guided optimization for integrated offshore wind farm layout and cable routing.
 
 - [Mass and momentum conserving analytical wake model](https://github.com/zbh0528/Mass--and-momentum-conserving-analytical-wake-model)<br />
   Analytical wake modeling for wind farm analysis and optimization.
