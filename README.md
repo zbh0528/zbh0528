@@ -1,64 +1,88 @@
-# <div align="center">Baohang Zhang</div>
-
 <div align="center">
 
-### Ph.D. Candidate in Artificial Intelligence and Evolutionary Optimization
+![Research Banner](https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,45:12304A,100:1E5A63&height=190&section=header&text=Baohang%20Zhang&fontSize=46&fontColor=F8FAFC&fontAlignY=34&desc=Evolutionary%20Computation%20%7C%20Expensive%20Optimization%20%7C%20Wind%20Energy%20Systems&descSize=15&descAlignY=56&animation=fadeIn)
 
-University of Toyama, Japan
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=IBM+Plex+Mono&weight=500&size=18&duration=2800&pause=850&color=66D9FF&center=true&vCenter=true&width=900&height=46&lines=Ph.D.+Candidate+in+Artificial+Intelligence+and+Evolutionary+Optimization;Structure-aware+search+for+engineering+optimization;Expensive+black-box+optimization+under+limited+evaluation+budgets;Wind+farm+layout%2C+cable+routing%2C+and+wake-aware+yaw+control)](https://git.io/typing-svg)
+
+**Ph.D. Candidate in Artificial Intelligence and Evolutionary Optimization**<br />
+**University of Toyama, Japan**
 
 <p>
   <a href="mailto:zbhsyx@163.com">
-    <img src="https://img.shields.io/badge/Email-zbhsyx%40163.com-0b1220?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img alt="Email" src="https://img.shields.io/badge/Email-zbhsyx%40163.com-0B1220?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://scholar.google.com.hk/citations?user=kKfWIUkAAAAJ&hl=zh-CN">
-    <img src="https://img.shields.io/badge/Google%20Scholar-Profile-0b1220?style=for-the-badge&logo=googlescholar&logoColor=white" />
+    <img alt="Google Scholar" src="https://img.shields.io/badge/Google%20Scholar-Profile-0B1220?style=for-the-badge&logo=googlescholar&logoColor=white" />
+  </a>
+  <a href="https://orcid.org/0000-0002-8612-0649">
+    <img alt="ORCID" src="https://img.shields.io/badge/ORCID-0000--0002--8612--0649-0B1220?style=for-the-badge&logo=orcid&logoColor=white" />
   </a>
   <a href="https://github.com/zbh0528">
-    <img src="https://img.shields.io/badge/GitHub-zbh0528-0b1220?style=for-the-badge&logo=github&logoColor=white" />
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-zbh0528-0B1220?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Evolutionary%20Computation-66d9ff?style=flat-square&labelColor=08111f&color=66d9ff" />
-  <img src="https://img.shields.io/badge/Expensive%20Optimization-9db8ff?style=flat-square&labelColor=08111f&color=9db8ff" />
-  <img src="https://img.shields.io/badge/Wind%20Energy%20Optimization-9ef3c5?style=flat-square&labelColor=08111f&color=9ef3c5" />
+  <img alt="Evolutionary Computation" src="https://img.shields.io/badge/Evolutionary%20Computation-66D9FF?style=flat-square&labelColor=08111F&color=66D9FF" />
+  <img alt="Expensive Optimization" src="https://img.shields.io/badge/Expensive%20Optimization-9DB8FF?style=flat-square&labelColor=08111F&color=9DB8FF" />
+  <img alt="Wind Energy Optimization" src="https://img.shields.io/badge/Wind%20Energy%20Optimization-9EF3C5?style=flat-square&labelColor=08111F&color=9EF3C5" />
+  <img alt="Reproducible Research" src="https://img.shields.io/badge/Reproducible%20Research-C7D2FE?style=flat-square&labelColor=08111F&color=C7D2FE" />
 </p>
 
 </div>
 
 ---
 
-## About Me
+## Research Profile
 
-I am a Ph.D. candidate at the **University of Toyama** working on **evolutionary computation**, **expensive optimization**, and **wind energy optimization**.
+I study **evolutionary computation**, **expensive optimization**, and **wind energy optimization**, with a focus on optimization methods that remain useful under real engineering constraints.
 
-My recent research focuses on building robust optimization methods for high-dimensional real-world problems, especially:
+My recent work connects algorithm design with renewable energy systems, especially offshore wind farm layout optimization, electrical cable routing, wake-aware yaw optimization, feature selection, and reproducible benchmarking for engineering applications.
 
-- offshore wind farm layout optimization
-- electrical cable routing optimization
-- wake-aware yaw optimization
-- feature selection and swarm intelligence
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <b>Evolutionary Computation</b><br />
+      Differential evolution<br />
+      Genetic algorithms<br />
+      Swarm intelligence<br />
+      Structure-aware search
+    </td>
+    <td width="33%" valign="top">
+      <b>Expensive Optimization</b><br />
+      Limited-budget search<br />
+      Black-box engineering objectives<br />
+      Resource-aware benchmarking<br />
+      Surrogate-assisted optimization
+    </td>
+    <td width="33%" valign="top">
+      <b>Wind Energy Systems</b><br />
+      Wind farm layout optimization<br />
+      Electrical cable routing<br />
+      Wake-aware yaw control<br />
+      LCOE-oriented co-design
+    </td>
+  </tr>
+</table>
 
 ---
 
-## Research Directions
+## Dynamic Research Snapshot
 
-```text
-Evolutionary Computation
-├── Differential Evolution
-├── Swarm Intelligence
-└── Structure-aware Search
+<div align="center">
 
-Expensive Optimization
-├── Resource-aware Search
-├── Real-world Engineering Problems
-└── Surrogate-assisted Optimization
+<img height="165" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=zbh0528&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=66D9FF&text_color=D7E1F2&icon_color=9EF3C5" />
+<img height="165" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zbh0528&layout=compact&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=66D9FF&text_color=D7E1F2" />
 
-Wind Energy Optimization
-├── Wind Farm Layout Optimization
-├── Cable Routing Optimization
-└── Yaw Control Optimization
-```
+<br />
+
+<img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=zbh0528&theme=tokyonight&hide_border=true&background=0B1220&ring=66D9FF&fire=9EF3C5&currStreakLabel=9DB8FF" />
+
+<br />
+
+<img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=zbh0528&theme=tokyo-night&hide_border=true&bg_color=0B1220&color=9DB8FF&line=66D9FF&point=9EF3C5&area=true" />
+
+</div>
 
 ---
 
@@ -66,65 +90,94 @@ Wind Energy Optimization
 
 ### Journal Articles
 
-- **Baohang Zhang**, Yixin Shao, Zhenyu Lei, Chao Zhang, Yirui Wang, and Shangce Gao,  
-  **A Geometry-guided Genetic Algorithm for Integrated Offshore Wind Farm Layout and Electrical Cable Routing Optimization**,  
-  *Applied Energy*, accepted for publication.
+- **Baohang Zhang**, Yixin Shao, Zhenyu Lei, Chao Zhang, Yirui Wang, and Shangce Gao,<br />
+  **[A geometry-guided genetic algorithm for integrated offshore wind farm layout and electrical cable routing optimization](https://doi.org/10.1016/j.apenergy.2026.127895)**,<br />
+  *Applied Energy*, vol. 415, Article 127895, July 2026.<br />
+  DOI: [`10.1016/j.apenergy.2026.127895`](https://doi.org/10.1016/j.apenergy.2026.127895)
 
-- Zhe Xu, Lin Yang, Fenggang Yuan, **Baohang Zhang**, Jiatianyi Yu, and Xiaosha Qi,  
-  **Dendritic Learning Empowered by Diversity-Aware Differential Evolution**,  
-  *IEEE Access*, 2026.  
-  DOI: `10.1109/ACCESS.2026.3669958`
+- Zhe Xu, Lin Yang, Fenggang Yuan, **Baohang Zhang**, Jiatianyi Yu, and Xiaosha Qi,<br />
+  **[Dendritic Learning Empowered by Diversity-Aware Differential Evolution](https://doi.org/10.1109/ACCESS.2026.3669958)**,<br />
+  *IEEE Access*, vol. 14, pp. 34879-34893, 2026.<br />
+  DOI: [`10.1109/ACCESS.2026.3669958`](https://doi.org/10.1109/ACCESS.2026.3669958)
 
-- **Baohang Zhang**, Haichuan Yang, Tao Zheng, Rong-Long Wang, and Shangce Gao,  
-  **A Non-Revisiting Equilibrium Optimizer Algorithm**,  
-  *IEICE Transactions on Information and Systems*, vol. 106, no. 3, pp. 365-373, 2023.  
-  DOI: `10.1587/transinf.2022EDP7119`
+- **Baohang Zhang**, Haichuan Yang, Tao Zheng, Rong-Long Wang, and Shangce Gao,<br />
+  **[A Non-Revisiting Equilibrium Optimizer Algorithm](https://doi.org/10.1587/transinf.2022EDP7119)**,<br />
+  *IEICE Transactions on Information and Systems*, vol. E106-D, no. 3, pp. 365-373, 2023.<br />
+  DOI: [`10.1587/transinf.2022EDP7119`](https://doi.org/10.1587/transinf.2022EDP7119)
 
-- **Baohang Zhang**, Ziqian Wang, Haotian Li, Zhenyu Lei, Jiujun Cheng, and Shangce Gao,  
-  **Information Gain-Based Multi-Objective Evolutionary Algorithm for Feature Selection**,  
-  *Information Sciences*, 2024.
+- **Baohang Zhang**, Ziqian Wang, Haotian Li, Zhenyu Lei, Jiujun Cheng, and Shangce Gao,<br />
+  **[Information gain-based multi-objective evolutionary algorithm for feature selection](https://doi.org/10.1016/j.ins.2024.120901)**,<br />
+  *Information Sciences*, vol. 677, Article 120901, August 2024.<br />
+  DOI: [`10.1016/j.ins.2024.120901`](https://doi.org/10.1016/j.ins.2024.120901)
 
 ### Conference Papers
 
-- Tao Zheng, Zhiwei Yu, Kefan Ni, **Baohang Zhang**, Zhenyu Lei, and Shangce Gao,  
-  **A Compact Evolutionary Algorithm for Layout Optimization**,  
-  *The 2025 9th International Conference on Electronic Information Technology and Computer Engineering (EITCE 2025)*, 2025.
+- Tao Zheng, Zhiwei Yu, Kefan Ni, **Baohang Zhang**, Zhenyu Lei, and Shangce Gao,<br />
+  **[Revolutionizing Wind Energy: A Compact Evolutionary Algorithm for Layout Optimization](https://doi.org/10.1145/3766671.3766786)**,<br />
+  *The 2025 9th International Conference on Electronic Information Technology and Computer Engineering (EITCE 2025)*, pp. 667-672, 2025.<br />
+  DOI: [`10.1145/3766671.3766786`](https://doi.org/10.1145/3766671.3766786)
 
-- Jiatianyi Yu, **Baohang Zhang**, Qianhang Du, Wenshui Wang, Zhenyu Lei, and Shangce Gao,  
-  **A Novel Adaptive LSHADE Algorithm for Wind Farm Layout Optimization with Complex Wake Effect**,  
-  *IEEE International Conference on Progress in Informatics and Computing (PIC)*, 2024.
+- Jiatianyi Yu, **Baohang Zhang**, Qianhang Du, Wenshui Wang, Zhenyu Lei, and Shangce Gao,<br />
+  **[A Novel Adaptive LSHADE Algorithm for Wind Farm Layout Optimization with Complex Wake Effect](https://doi.org/10.1109/PIC62406.2024.10892732)**,<br />
+  *Proceedings of the 2024 IEEE International Conference on Progress in Informatics and Computing (PIC 2024)*, pp. 162-165, 2024.<br />
+  DOI: [`10.1109/PIC62406.2024.10892732`](https://doi.org/10.1109/PIC62406.2024.10892732)
 
 ---
 
 ## Current Focus
 
-- structure-aware evolutionary algorithms for wind energy systems
-- expensive black-box optimization under limited evaluation budgets
-- large-scale yaw optimization with wake-coupled variables
-- reproducible optimization frameworks for engineering applications
+```text
+Research question
+|-- How can evolutionary search remain reliable under real engineering constraints?
+|
+|-- Algorithm design
+|   |-- Structure-aware genetic operators
+|   |-- Differential evolution and adaptive search
+|   |-- Non-revisiting and diversity-preserving mechanisms
+|
+|-- Engineering optimization
+|   |-- Offshore wind farm layout optimization
+|   |-- Electrical cable routing optimization
+|   |-- Wake-aware yaw control optimization
+|
+`-- Reproducibility
+    |-- Measured wind-resource benchmarks
+    |-- Transparent evaluation budgets
+    `-- Traceable code, data, and paper artifacts
+```
 
 ---
 
 ## Featured Repositories
 
-- [WFLO-GGA](https://github.com/zbh0528/WFLO-GGA)  
-  Geometry-guided optimization for offshore wind farm layout and cable routing.
+<div align="center">
 
-- [Mass--and-momentum-conserving-analytical-wake-model](https://github.com/zbh0528/Mass--and-momentum-conserving-analytical-wake-model)  
-  Wake modeling related work for wind farm analysis.
+[![WFLO-GGA](https://github-readme-stats.vercel.app/api/pin/?username=zbh0528&repo=WFLO-GGA&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=66D9FF&text_color=D7E1F2&icon_color=9EF3C5)](https://github.com/zbh0528/WFLO-GGA)
+[![Wake Model](https://github-readme-stats.vercel.app/api/pin/?username=zbh0528&repo=Mass--and-momentum-conserving-analytical-wake-model&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=66D9FF&text_color=D7E1F2&icon_color=9EF3C5)](https://github.com/zbh0528/Mass--and-momentum-conserving-analytical-wake-model)
+
+</div>
+
+- [WFLO-GGA](https://github.com/zbh0528/WFLO-GGA)<br />
+  Geometry-guided optimization for integrated offshore wind farm layout and electrical cable routing.
+
+- [Mass--and-momentum-conserving-analytical-wake-model](https://github.com/zbh0528/Mass--and-momentum-conserving-analytical-wake-model)<br />
+  Analytical wake modeling for wind farm analysis and optimization.
 
 ---
 
 ## Contact
 
-- Email: `zbhsyx@163.com`
-- Google Scholar: <https://scholar.google.com.hk/citations?user=kKfWIUkAAAAJ&hl=zh-CN>
-- GitHub: <https://github.com/zbh0528>
+- Email: [`zbhsyx@163.com`](mailto:zbhsyx@163.com)
+- Google Scholar: [`kKfWIUkAAAAJ`](https://scholar.google.com.hk/citations?user=kKfWIUkAAAAJ&hl=zh-CN)
+- ORCID: [`0000-0002-8612-0649`](https://orcid.org/0000-0002-8612-0649)
+- GitHub: [`zbh0528`](https://github.com/zbh0528)
 
 ---
 
 <div align="center">
 
-`Evolutionary Computation` · `Expensive Optimization` · `Wind Energy Optimization`
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:1E5A63,55:12304A,100:0B1220&height=110&section=footer)
+
+`Evolutionary Computation` | `Expensive Optimization` | `Wind Energy Optimization`
 
 </div>
