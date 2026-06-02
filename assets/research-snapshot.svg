@@ -1,42 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 540" width="1000" height="540" role="img" aria-labelledby="title desc">
-  <title id="title">Research snapshot</title>
-  <desc id="desc">An Apple-inspired dynamic research interface showing the flow from engineering decisions through an evolutionary optimization core to wind energy design artifacts.</desc>
+  <title id="title">Research system snapshot</title>
+  <desc id="desc">A clean Apple-style research system diagram with separated input, optimization, wind-system output, and evidence layers.</desc>
   <defs>
-    <linearGradient id="stage" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f9fbff"/>
-      <stop offset=".48" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#f6fbfa"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbfdff"/>
+      <stop offset=".55" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f6fbf9"/>
     </linearGradient>
-    <radialGradient id="auraBlue" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#86b7ff" stop-opacity=".44"/>
-      <stop offset="1" stop-color="#86b7ff" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="auraMint" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#7be1d1" stop-opacity=".34"/>
-      <stop offset="1" stop-color="#7be1d1" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="auraViolet" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#c8a6ff" stop-opacity=".34"/>
-      <stop offset="1" stop-color="#c8a6ff" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="coreGradient" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset=".52" stop-color="#f7fbff"/>
-      <stop offset="1" stop-color="#eef8f5"/>
-    </linearGradient>
-    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#71a5f2"/>
-      <stop offset=".52" stop-color="#65cdbf"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#72a7f4"/>
+      <stop offset=".52" stop-color="#6ccfc0"/>
       <stop offset="1" stop-color="#b69ae9"/>
     </linearGradient>
-    <filter id="softShadow" x="-16%" y="-18%" width="132%" height="140%">
-      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#3b485a" flood-opacity=".14"/>
-    </filter>
-    <filter id="microShadow" x="-12%" y="-14%" width="124%" height="128%">
-      <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#4c5a6b" flood-opacity=".10"/>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#8fb9ff" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#8fb9ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-12%" y="-14%" width="124%" height="130%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#42546a" flood-opacity=".11"/>
     </filter>
     <marker id="arrow" markerWidth="11" markerHeight="11" refX="9.5" refY="5.5" orient="auto">
-      <path d="M1 1L10 5.5L1 10" fill="none" stroke="#7d8ea3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M1 1L10 5.5L1 10" fill="none" stroke="#8190a3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
     </marker>
     <style>
       text {
@@ -44,187 +28,128 @@
         fill: #18212f;
       }
       .mono { font-family: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace; }
-      .eyebrow { font-size: 13px; font-weight: 720; fill: #6c7b90; letter-spacing: .8px; }
-      .title { font-size: 34px; font-weight: 780; letter-spacing: -.2px; }
-      .sub { font-size: 16px; fill: #66758b; }
-      .cardTitle { font-size: 16px; font-weight: 760; fill: #202b3a; }
-      .cardText { font-size: 13px; fill: #66758b; }
-      .chipText { font-size: 12px; font-weight: 680; fill: #4f6176; }
-      .tiny { font-size: 11px; fill: #718096; }
-      .glass { fill: #ffffff; fill-opacity: .78; stroke: #dfe8f1; stroke-width: 1.2; }
-      .flow {
-        fill: none;
-        stroke: url(#accentLine);
-        stroke-width: 3.2;
-        stroke-linecap: round;
-        stroke-dasharray: 12 13;
-        marker-end: url(#arrow);
-      }
-      .softLine { fill: none; stroke: #d6e0ea; stroke-width: 1.4; stroke-linecap: round; }
+      .kicker { font-size: 12px; font-weight: 760; fill: #6e7d91; letter-spacing: .8px; }
+      .title { font-size: 26px; font-weight: 780; letter-spacing: -.2px; }
+      .sub { font-size: 14px; fill: #68778c; }
+      .cardTitle { font-size: 15px; font-weight: 760; fill: #202b3a; }
+      .label { font-size: 12px; font-weight: 680; fill: #4f6176; }
+      .small { font-size: 11px; fill: #6c7b90; }
+      .node { fill: #ffffff; stroke: #dfe8f1; stroke-width: 1.1; }
+      .flow { fill: none; stroke: url(#accent); stroke-width: 3.2; stroke-linecap: round; stroke-dasharray: 12 12; marker-end: url(#arrow); }
     </style>
   </defs>
 
-  <rect width="1000" height="540" rx="28" fill="url(#stage)"/>
-  <circle cx="430" cy="205" r="190" fill="url(#auraBlue)">
-    <animate attributeName="r" values="178;202;178" dur="6s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="650" cy="245" r="170" fill="url(#auraMint)">
-    <animate attributeName="cx" values="632;676;632" dur="7s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="515" cy="320" r="150" fill="url(#auraViolet)">
-    <animate attributeName="cy" values="304;332;304" dur="6.5s" repeatCount="indefinite"/>
+  <rect width="1000" height="540" rx="30" fill="url(#bg)"/>
+  <circle cx="500" cy="274" r="230" fill="url(#glow)">
+    <animate attributeName="r" values="210;240;210" dur="7s" repeatCount="indefinite"/>
   </circle>
 
-  <g transform="translate(52 48)">
-    <text class="eyebrow mono" x="0" y="0">RESEARCH INTERFACE</text>
-    <text class="title" x="0" y="38">Evolutionary Optimization OS</text>
-    <text class="sub" x="0" y="64">Engineering variables, constrained search, and wind energy design.</text>
+  <g transform="translate(54 48)">
+    <text class="kicker mono" x="0" y="0">RESEARCH SYSTEM</text>
+    <text class="title" x="0" y="34">Optimization pipeline for wind energy systems</text>
+    <text class="sub" x="0" y="58">Decision variables enter a budgeted evolutionary loop and leave as traceable engineering artifacts.</text>
   </g>
 
-  <g transform="translate(716 45)">
-    <rect x="0" y="0" width="218" height="42" rx="21" fill="#ffffff" stroke="#dfe8f1" filter="url(#microShadow)"/>
-    <circle cx="24" cy="21" r="6" fill="#74a8f5"/>
-    <circle cx="46" cy="21" r="6" fill="#6ccfc0"/>
-    <circle cx="68" cy="21" r="6" fill="#c5a8ef"/>
-    <text class="chipText" x="93" y="26">EC / Black-box / Wind</text>
-  </g>
+  <g transform="translate(58 130)" filter="url(#shadow)">
+    <rect x="0" y="0" width="238" height="248" rx="28" fill="#ffffff" fill-opacity=".88" stroke="#e0e9f2"/>
+    <text class="cardTitle" x="26" y="38">Input Layer</text>
+    <text class="small" x="26" y="61">constrained design variables</text>
 
-  <g transform="translate(54 165)" filter="url(#microShadow)">
-    <rect class="glass" width="236" height="230" rx="28"/>
-    <text class="cardTitle" x="26" y="36">Input Space</text>
-    <text class="cardText" x="26" y="61">Engineering decisions</text>
+    <g transform="translate(26 92)">
+      <rect class="node" x="0" y="0" width="184" height="42" rx="15" fill="#f3f8ff"/>
+      <circle cx="23" cy="21" r="7" fill="#7eb0f1"/>
+      <text class="label" x="44" y="26">Layout variables</text>
 
-    <g transform="translate(26 88)">
-      <rect x="0" y="0" width="184" height="44" rx="16" fill="#f3f8ff" stroke="#d7e7fb"/>
-      <circle cx="24" cy="22" r="8" fill="#83b2ef"/>
-      <text class="chipText" x="46" y="27">Wind farm layout</text>
-      <rect x="0" y="58" width="184" height="44" rx="16" fill="#f2fbf8" stroke="#d3ece6"/>
-      <circle cx="24" cy="80" r="8" fill="#79d0c2"/>
-      <text class="chipText" x="46" y="85">Cable routing</text>
-      <rect x="0" y="116" width="184" height="44" rx="16" fill="#fbf6ee" stroke="#eadcc5"/>
-      <circle cx="24" cy="138" r="8" fill="#e6bf82"/>
-      <text class="chipText" x="46" y="143">Yaw control</text>
+      <rect class="node" x="0" y="58" width="184" height="42" rx="15" fill="#f2fbf8"/>
+      <circle cx="23" cy="79" r="7" fill="#78d0c2"/>
+      <text class="label" x="44" y="84">Cable topology</text>
+
+      <rect class="node" x="0" y="116" width="184" height="42" rx="15" fill="#fbf6ee"/>
+      <circle cx="23" cy="137" r="7" fill="#e6bf82"/>
+      <text class="label" x="44" y="142">Yaw settings</text>
     </g>
   </g>
 
-  <path class="flow" d="M306 280C338 280 356 266 382 244">
-    <animate attributeName="stroke-dashoffset" from="50" to="0" dur="3s" repeatCount="indefinite"/>
+  <path class="flow" d="M312 254C338 254 358 254 384 254">
+    <animate attributeName="stroke-dashoffset" from="48" to="0" dur="3s" repeatCount="indefinite"/>
   </path>
 
-  <g transform="translate(356 135)" filter="url(#softShadow)">
-    <rect x="0" y="0" width="314" height="288" rx="38" fill="url(#coreGradient)" stroke="#d9e5ef" stroke-width="1.2"/>
+  <g transform="translate(382 112)" filter="url(#shadow)">
+    <rect x="0" y="0" width="290" height="286" rx="36" fill="#ffffff" fill-opacity=".92" stroke="#dfe8f1"/>
+    <text class="cardTitle" x="28" y="40">Evolutionary Core</text>
+    <text class="small" x="28" y="63">structure-aware, budgeted search</text>
 
-    <g transform="translate(30 30)">
-      <text class="cardTitle" x="0" y="0">Optimization Core</text>
-      <text class="cardText" x="0" y="25">Structure-aware search loop</text>
-    </g>
-
-    <g transform="translate(60 86)">
-      <circle cx="97" cy="87" r="78" fill="#ffffff" stroke="#dbe7f2" stroke-width="1.2"/>
-      <circle cx="97" cy="87" r="55" fill="#f8fbff" stroke="#e3ebf3"/>
-      <path d="M97 23C132 23 160 51 160 86C160 122 132 150 97 150C62 150 34 122 34 86C34 51 62 23 97 23Z" fill="none" stroke="url(#accentLine)" stroke-width="4" stroke-dasharray="18 16" stroke-linecap="round">
-        <animate attributeName="stroke-dashoffset" from="68" to="0" dur="4.8s" repeatCount="indefinite"/>
+    <g transform="translate(48 88)">
+      <circle cx="96" cy="86" r="78" fill="#f8fbff" stroke="#dfe8f1"/>
+      <circle cx="96" cy="86" r="48" fill="#ffffff" stroke="#dfe8f1"/>
+      <path d="M96 10C138 10 172 44 172 86C172 128 138 162 96 162C54 162 20 128 20 86C20 44 54 10 96 10Z" fill="none" stroke="url(#accent)" stroke-width="4.2" stroke-dasharray="18 17" stroke-linecap="round">
+        <animate attributeName="stroke-dashoffset" from="70" to="0" dur="4.8s" repeatCount="indefinite"/>
       </path>
-      <circle cx="97" cy="23" r="7" fill="#74a8f5">
-        <animate attributeName="cx" values="97;144;160;97;50;34;97" dur="4.8s" repeatCount="indefinite"/>
-        <animate attributeName="cy" values="23;39;86;150;134;86;23" dur="4.8s" repeatCount="indefinite"/>
+      <circle cx="96" cy="10" r="7" fill="#72a7f4">
+        <animate attributeName="cx" values="96;150;172;96;42;20;96" dur="4.8s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="10;32;86;162;140;86;10" dur="4.8s" repeatCount="indefinite"/>
       </circle>
-
-      <g transform="translate(97 87)">
-        <circle cx="0" cy="0" r="35" fill="#ffffff" stroke="#dbe7f2"/>
-        <text class="chipText" x="0" y="-7" text-anchor="middle">DE</text>
-        <text class="tiny mono" x="0" y="10" text-anchor="middle">x_t -> x*</text>
-      </g>
-
-      <g transform="translate(0 0)">
-        <rect x="-18" y="58" width="74" height="38" rx="14" fill="#f3f8ff" stroke="#d7e7fb"/>
-        <text class="tiny" x="19" y="82" text-anchor="middle">Population</text>
-        <rect x="138" y="0" width="78" height="38" rx="14" fill="#f2fbf8" stroke="#d3ece6"/>
-        <text class="tiny" x="177" y="24" text-anchor="middle">Prior</text>
-        <rect x="148" y="136" width="92" height="38" rx="14" fill="#fbf6ee" stroke="#eadcc5"/>
-        <text class="tiny" x="194" y="160" text-anchor="middle">Evaluation</text>
-        <rect x="-5" y="145" width="80" height="38" rx="14" fill="#faf7ff" stroke="#e3d6f2"/>
-        <text class="tiny" x="35" y="169" text-anchor="middle">Archive</text>
-      </g>
+      <text class="label" x="96" y="82" text-anchor="middle">DE / GA</text>
+      <text class="small mono" x="96" y="101" text-anchor="middle">x_t -> x*</text>
     </g>
 
-    <g transform="translate(35 244)">
-      <rect x="0" y="0" width="78" height="28" rx="14" fill="#f3f8ff" stroke="#d7e7fb"/>
-      <text class="tiny" x="39" y="18" text-anchor="middle">limited budget</text>
-      <rect x="90" y="0" width="80" height="28" rx="14" fill="#f2fbf8" stroke="#d3ece6"/>
-      <text class="tiny" x="130" y="18" text-anchor="middle">non-repeat</text>
-      <rect x="182" y="0" width="62" height="28" rx="14" fill="#faf7ff" stroke="#e3d6f2"/>
-      <text class="tiny" x="213" y="18" text-anchor="middle">diverse</text>
+    <g transform="translate(24 248)">
+      <rect x="0" y="0" width="74" height="25" rx="12.5" fill="#f3f8ff" stroke="#d7e7fb"/>
+      <text class="small" x="37" y="17" text-anchor="middle">prior</text>
+      <rect x="86" y="0" width="82" height="25" rx="12.5" fill="#f2fbf8" stroke="#d3ece6"/>
+      <text class="small" x="127" y="17" text-anchor="middle">archive</text>
+      <rect x="180" y="0" width="78" height="25" rx="12.5" fill="#faf7ff" stroke="#e3d6f2"/>
+      <text class="small" x="219" y="17" text-anchor="middle">diversity</text>
     </g>
   </g>
 
-  <path class="flow" d="M676 244C704 266 724 280 756 280">
-    <animate attributeName="stroke-dashoffset" from="50" to="0" dur="3s" repeatCount="indefinite"/>
+  <path class="flow" d="M686 254C712 254 732 254 758 254">
+    <animate attributeName="stroke-dashoffset" from="48" to="0" dur="3s" repeatCount="indefinite"/>
   </path>
 
-  <g transform="translate(756 165)" filter="url(#microShadow)">
-    <rect class="glass" width="190" height="230" rx="28"/>
-    <text class="cardTitle" x="25" y="36">Wind System</text>
-    <text class="cardText" x="25" y="61">Co-designed output</text>
+  <g transform="translate(758 130)" filter="url(#shadow)">
+    <rect x="0" y="0" width="184" height="248" rx="28" fill="#ffffff" fill-opacity=".88" stroke="#e0e9f2"/>
+    <text class="cardTitle" x="24" y="38">Output Layer</text>
+    <text class="small" x="24" y="61">wind system design</text>
 
-    <g transform="translate(20 84)">
-      <path d="M12 110C42 82 65 92 88 66C111 39 132 46 156 18" fill="none" stroke="#dfe8ef" stroke-width="9" stroke-linecap="round"/>
-      <path d="M12 110C42 82 65 92 88 66C111 39 132 46 156 18" fill="none" stroke="#6ccfc0" stroke-width="2.8" stroke-dasharray="8 8" stroke-linecap="round">
+    <g transform="translate(20 86)">
+      <path d="M14 118C43 90 64 98 88 72C112 46 130 52 148 26" fill="none" stroke="#dfe8ef" stroke-width="9" stroke-linecap="round"/>
+      <path d="M14 118C43 90 64 98 88 72C112 46 130 52 148 26" fill="none" stroke="#6ccfc0" stroke-width="2.8" stroke-dasharray="8 8" stroke-linecap="round">
         <animate attributeName="stroke-dashoffset" from="32" to="0" dur="2.5s" repeatCount="indefinite"/>
       </path>
       <g stroke="#6f9fd8" stroke-width="1.8" fill="none" stroke-linecap="round">
-        <path d="M28 101V68M28 68L13 58M28 68L43 58M28 68L29 47"/>
-        <path d="M78 84V52M78 52L64 42M78 52L92 42M78 52L79 31"/>
-        <path d="M128 45V16M128 16L115 7M128 16L141 7M128 16L129 -4"/>
+        <path d="M30 108V75M30 75L16 65M30 75L44 65M30 75L31 54"/>
+        <path d="M82 88V57M82 57L68 47M82 57L96 47M82 57L83 36"/>
+        <path d="M132 50V22M132 22L120 13M132 22L144 13M132 22L133 2"/>
       </g>
       <g fill="#ffffff" stroke="#b69ae9" stroke-width="1.8">
-        <circle cx="28" cy="101" r="7.5"/>
-        <circle cx="78" cy="84" r="7.5"/>
-        <circle cx="128" cy="45" r="7.5"/>
+        <circle cx="30" cy="108" r="7"/>
+        <circle cx="82" cy="88" r="7"/>
+        <circle cx="132" cy="50" r="7"/>
       </g>
-      <path d="M26 92A21 21 0 0 1 48 101" fill="none" stroke="#e0b56f" stroke-width="1.8" stroke-linecap="round">
+      <path d="M28 99A21 21 0 0 1 50 108" fill="none" stroke="#e0b56f" stroke-width="1.8" stroke-linecap="round">
         <animate attributeName="opacity" values=".35;1;.35" dur="2.6s" repeatCount="indefinite"/>
       </path>
-      <path d="M76 75A21 21 0 0 1 98 84" fill="none" stroke="#e0b56f" stroke-width="1.8" stroke-linecap="round">
-        <animate attributeName="opacity" values="1;.35;1" dur="2.8s" repeatCount="indefinite"/>
-      </path>
-    </g>
-
-    <g transform="translate(23 194)">
-      <rect x="0" y="0" width="45" height="22" rx="11" fill="#f3f8ff" stroke="#d7e7fb"/>
-      <text class="tiny" x="22.5" y="15" text-anchor="middle">LCOE</text>
-      <rect x="54" y="0" width="48" height="22" rx="11" fill="#f2fbf8" stroke="#d3ece6"/>
-      <text class="tiny" x="78" y="15" text-anchor="middle">Wake</text>
-      <rect x="111" y="0" width="34" height="22" rx="11" fill="#fbf6ee" stroke="#eadcc5"/>
-      <text class="tiny" x="128" y="15" text-anchor="middle">Yaw</text>
     </g>
   </g>
 
-  <g transform="translate(74 455)">
-    <rect x="0" y="0" width="852" height="52" rx="26" fill="#ffffff" stroke="#e2eaf2" filter="url(#microShadow)"/>
+  <g transform="translate(74 430)" filter="url(#shadow)">
+    <rect x="0" y="0" width="852" height="58" rx="29" fill="#ffffff" fill-opacity=".90" stroke="#e2eaf2"/>
     <g transform="translate(34 0)">
-      <circle cx="0" cy="26" r="8" fill="#83b2ef">
-        <animate attributeName="opacity" values=".45;1;.45" dur="2.4s" repeatCount="indefinite"/>
-      </circle>
-      <text class="chipText" x="22" y="31">DOI papers</text>
+      <circle cx="0" cy="29" r="8" fill="#83b2ef"/>
+      <text class="label" x="22" y="34">DOI papers</text>
     </g>
-    <g transform="translate(242 0)">
-      <circle cx="0" cy="26" r="8" fill="#79d0c2">
-        <animate attributeName="opacity" values=".55;1;.55" dur="2.7s" repeatCount="indefinite"/>
-      </circle>
-      <text class="chipText" x="22" y="31">Open repositories</text>
+    <g transform="translate(232 0)">
+      <circle cx="0" cy="29" r="8" fill="#79d0c2"/>
+      <text class="label" x="22" y="34">Open code</text>
     </g>
-    <g transform="translate(484 0)">
-      <circle cx="0" cy="26" r="8" fill="#e6bf82">
-        <animate attributeName="opacity" values=".65;1;.65" dur="3s" repeatCount="indefinite"/>
-      </circle>
-      <text class="chipText" x="22" y="31">Budgeted benchmarks</text>
+    <g transform="translate(420 0)">
+      <circle cx="0" cy="29" r="8" fill="#e6bf82"/>
+      <text class="label" x="22" y="34">Benchmarks</text>
     </g>
-    <g transform="translate(720 0)">
-      <circle cx="0" cy="26" r="8" fill="#c5a8ef">
-        <animate attributeName="opacity" values=".5;1;.5" dur="2.8s" repeatCount="indefinite"/>
-      </circle>
-      <text class="chipText" x="22" y="31">Traceable artifacts</text>
+    <g transform="translate(628 0)">
+      <circle cx="0" cy="29" r="8" fill="#c5a8ef"/>
+      <text class="label" x="22" y="34">Traceable artifacts</text>
     </g>
   </g>
 </svg>
