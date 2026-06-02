@@ -13,7 +13,7 @@ Degree awarded in March 2026
 
 <br />
 
-<sub><b>斑斑</b> keeps my research loop moving.</sub><br />
+<sub><b>斑斑</b> keeps the research loop moving.</sub><br />
 <sub>虽然他去了鼠星，但我很想他。</sub>
 
 </div>
@@ -36,9 +36,9 @@ My current work connects structure-aware evolutionary search with offshore wind 
 
 <div align="center">
 
-<img alt="Research map for evolutionary optimization and wind energy systems" src="https://raw.githubusercontent.com/zbh0528/zbh0528/ac97cbba112adad778582472aa5c32b98475885a/assets/research-snapshot.svg" />
+<img alt="Research map for constrained evolutionary optimization in wind energy systems" src="./assets/research-snapshot.svg" width="820" />
 
-<sub>Problem definition -> evolutionary search -> wind energy design -> reproducible evidence.</sub>
+<sub>Constrained problem space -> evolutionary search -> engineering evaluation -> reproducible evidence.</sub>
 
 </div>
 
