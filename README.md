@@ -29,7 +29,7 @@ My current work connects structure-aware evolutionary search with offshore wind 
 
 <div align="center">
 
-<img alt="Research map for evolutionary optimization and wind energy systems" src="./assets/research-snapshot.svg" />
+<img alt="Research map for evolutionary optimization and wind energy systems" src="https://raw.githubusercontent.com/zbh0528/zbh0528/ac97cbba112adad778582472aa5c32b98475885a/assets/research-snapshot.svg" />
 
 <sub>Problem definition -> evolutionary search -> wind energy design -> reproducible evidence.</sub>
 
