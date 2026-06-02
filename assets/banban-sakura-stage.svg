@@ -7,9 +7,10 @@
       .petalA{fill:#f6b6c8;opacity:.62}
       .petalB{fill:#f9cbd8;opacity:.52}
       .petalC{fill:#f2a9bf;opacity:.44}
-      .haloGlow{fill:none;stroke:#fff1a8;stroke-width:8;stroke-linecap:round;opacity:.38}
-      .haloRing{fill:none;stroke:#d9a928;stroke-width:4;stroke-linecap:round;opacity:.92}
-      .haloCore{fill:#fff1a8;opacity:.24}
+      .haloSheen{fill:none;stroke:#fff4b8;stroke-width:5.2;stroke-linecap:round;opacity:.22}
+      .haloBack{fill:none;stroke:#f0cf75;stroke-width:2.1;stroke-linecap:round;opacity:.62}
+      .haloFront{fill:none;stroke:#d6a331;stroke-width:2.8;stroke-linecap:round;opacity:.9}
+      .haloPearl{fill:#fff6ca;opacity:.72}
     </style>
   </defs>
   <rect width="320" height="260" fill="#fff" opacity="0"/>
@@ -49,20 +50,17 @@
     <animateTransform attributeName="transform" type="translate" values="-2 0;2 -7;-2 0" dur="1s" repeatCount="indefinite"/>
     <animateTransform attributeName="transform" type="rotate" values="-2 160 146;2 160 146;-2 160 146" dur="2s" repeatCount="indefinite" additive="sum"/>
     <image x="64" y="42" width="192" height="208" preserveAspectRatio="xMidYMid meet" href="https://raw.githubusercontent.com/zbh0528/zbh0528/main/assets/ban-ban-wave.svg" xlink:href="https://raw.githubusercontent.com/zbh0528/zbh0528/main/assets/ban-ban-wave.svg"/>
-  </g>
-
-  <g class="halo" transform="translate(160 58)">
-    <ellipse class="haloGlow" rx="34" ry="9">
-      <animate attributeName="opacity" values=".24;.45;.24" dur="2.8s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse class="haloCore" rx="30" ry="8">
-      <animate attributeName="opacity" values=".10;.22;.10" dur="2.8s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse class="haloRing" rx="34" ry="9">
-      <animate attributeName="rx" values="31;35;31" dur="2.8s" repeatCount="indefinite"/>
-      <animate attributeName="ry" values="7.5;9.5;7.5" dur="2.8s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values=".78;1;.78" dur="2.8s" repeatCount="indefinite"/>
-    </ellipse>
-    <animateTransform attributeName="transform" type="translate" values="160 58;160 54;160 58" dur="2.8s" repeatCount="indefinite"/>
+    <g class="halo" transform="translate(155 39) rotate(-7)">
+      <path class="haloSheen" d="M-24 0C-16-5.5 16-5.5 24 0"/>
+      <path class="haloBack" d="M-27 0C-18-6.2 18-6.2 27 0"/>
+      <path class="haloFront" d="M-27 0C-18 6.2 18 6.2 27 0"/>
+      <circle class="haloPearl" cx="-13" cy="-3.8" r="1.45">
+        <animate attributeName="opacity" values=".45;.9;.45" dur="2.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle class="haloPearl" cx="16" cy="3.2" r="1.15">
+        <animate attributeName="opacity" values=".8;.38;.8" dur="2.8s" repeatCount="indefinite"/>
+      </circle>
+      <animateTransform attributeName="transform" type="scale" values="1;1.045;1" dur="2.8s" repeatCount="indefinite" additive="sum"/>
+    </g>
   </g>
 </svg>
