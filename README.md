@@ -29,6 +29,12 @@
   <img alt="Reproducible Research" src="https://img.shields.io/badge/Reproducible%20Research-C7D2FE?style=flat-square&labelColor=08111F&color=C7D2FE" />
 </p>
 
+<img alt="斑斑 waving" src="./assets/ban-ban-wave.svg" width="118" />
+
+<br />
+
+<sub><b>斑斑</b> keeps the research loop moving.</sub>
+
 </div>
 
 ---
