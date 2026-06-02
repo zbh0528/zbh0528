@@ -71,10 +71,7 @@ My recent work connects algorithm design with renewable energy systems, especial
 
 <div align="center">
 
-<img height="165" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=zbh0528&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=66D9FF&text_color=D7E1F2&icon_color=9EF3C5" />
-<img height="165" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zbh0528&layout=compact&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=66D9FF&text_color=D7E1F2" />
-
-<br />
+<img alt="Profile Details" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=zbh0528&theme=github_dark" />
 
 <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=zbh0528&theme=tokyonight&hide_border=true&background=0B1220&ring=66D9FF&fire=9EF3C5&currStreakLabel=9DB8FF" />
 
@@ -152,8 +149,12 @@ Research question
 
 <div align="center">
 
-[![WFLO-GGA](https://github-readme-stats.vercel.app/api/pin/?username=zbh0528&repo=WFLO-GGA&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=66D9FF&text_color=D7E1F2&icon_color=9EF3C5)](https://github.com/zbh0528/WFLO-GGA)
-[![Wake Model](https://github-readme-stats.vercel.app/api/pin/?username=zbh0528&repo=Mass--and-momentum-conserving-analytical-wake-model&theme=tokyonight&hide_border=true&bg_color=0B1220&title_color=66D9FF&text_color=D7E1F2&icon_color=9EF3C5)](https://github.com/zbh0528/Mass--and-momentum-conserving-analytical-wake-model)
+<a href="https://github.com/zbh0528/WFLO-GGA">
+  <img alt="WFLO-GGA" src="https://img.shields.io/badge/WFLO--GGA-Geometry--guided%20wind%20farm%20co--design-0B1220?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+<a href="https://github.com/zbh0528/Mass--and-momentum-conserving-analytical-wake-model">
+  <img alt="Wake Model" src="https://img.shields.io/badge/Wake%20Model-Mass%20and%20momentum%20conserving-0B1220?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
 </div>
 
