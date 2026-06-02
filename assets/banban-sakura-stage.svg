@@ -1,1 +1,68 @@
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 260' width='320' height='260' role='img' aria-labelledby='title desc'><title id='title'>BanBan under sakura rain</title><desc id='desc'>An animated memorial stage that preserves the local BanBan image and adds gentle motion with sakura rain and a soft memorial halo.</desc><defs><path id='petal' d='M0 -7C6 -5 8 1 3 7C1 10 -2 10 -4 7C-8 1 -6 -5 0 -7Z'/><style>.petalA{fill:#f6b6c8;opacity:.62}.petalB{fill:#f9cbd8;opacity:.52}.petalC{fill:#f2a9bf;opacity:.44}.haloGlow{fill:none;stroke:#fff1a8;stroke-width:8;stroke-linecap:round;opacity:.38}.haloRing{fill:none;stroke:#d9a928;stroke-width:4;stroke-linecap:round;opacity:.92}.haloCore{fill:#fff1a8;opacity:.24}</style></defs><rect width='320' height='260' fill='#fff' opacity='0'/><g transform='translate(48 -16)'><use href='#petal' class='petalA'/><animateTransform attributeName='transform' type='translate' values='48 -16;72 230' dur='6.4s' repeatCount='indefinite'/><animateTransform attributeName='transform' type='rotate' values='0;220' dur='6.4s' repeatCount='indefinite' additive='sum'/></g><g transform='translate(104 -42)'><use href='#petal' class='petalB'/><animateTransform attributeName='transform' type='translate' values='104 -42;76 230' dur='7.2s' repeatCount='indefinite'/><animateTransform attributeName='transform' type='rotate' values='20;260' dur='7.2s' repeatCount='indefinite' additive='sum'/></g><g transform='translate(160 -24)'><use href='#petal' class='petalC'/><animateTransform attributeName='transform' type='translate' values='160 -24;194 230' dur='5.9s' repeatCount='indefinite'/><animateTransform attributeName='transform' type='rotate' values='-18;210' dur='5.9s' repeatCount='indefinite' additive='sum'/></g><g transform='translate(224 -50)'><use href='#petal' class='petalA'/><animateTransform attributeName='transform' type='translate' values='224 -50;268 230' dur='7.8s' repeatCount='indefinite'/><animateTransform attributeName='transform' type='rotate' values='12;250' dur='7.8s' repeatCount='indefinite' additive='sum'/></g><g transform='translate(282 -22)'><use href='#petal' class='petalB'/><animateTransform attributeName='transform' type='translate' values='282 -22;250 230' dur='6.7s' repeatCount='indefinite'/><animateTransform attributeName='transform' type='rotate' values='-10;230' dur='6.7s' repeatCount='indefinite' additive='sum'/></g><ellipse cx='160' cy='232' rx='54' ry='8' fill='#d7c6c0' opacity='.24'><animate attributeName='rx' values='49;58;49' dur='1s' repeatCount='indefinite'/><animate attributeName='opacity' values='.16;.28;.16' dur='1s' repeatCount='indefinite'/></ellipse><g transform-origin='160 132'><animateTransform attributeName='transform' type='translate' values='-2 0;2 -7;-2 0' dur='1s' repeatCount='indefinite'/><animateTransform attributeName='transform' type='rotate' values='-2 160 132;2 160 132;-2 160 132' dur='2s' repeatCount='indefinite' additive='sum'/><g class='halo' transform='translate(160 58)'><ellipse class='haloGlow' rx='34' ry='9'><animate attributeName='opacity' values='.24;.45;.24' dur='2.8s' repeatCount='indefinite'/></ellipse><ellipse class='haloCore' rx='30' ry='8'><animate attributeName='opacity' values='.10;.22;.10' dur='2.8s' repeatCount='indefinite'/></ellipse><ellipse class='haloRing' rx='34' ry='9'><animate attributeName='rx' values='31;35;31' dur='2.8s' repeatCount='indefinite'/><animate attributeName='ry' values='7.5;9.5;7.5' dur='2.8s' repeatCount='indefinite'/><animate attributeName='opacity' values='.78;1;.78' dur='2.8s' repeatCount='indefinite'/></ellipse><animateTransform attributeName='transform' type='translate' values='160 58;160 54;160 58' dur='2.8s' repeatCount='indefinite'/></g><g transform='translate(64 42)'><g transform-origin='96 104'><animateTransform attributeName='transform' type='scale' values='1 .985;1.018 1.015;1 .985' dur='1s' repeatCount='indefinite'/><image x='0' y='0' width='192' height='208' href='data:image/webp;base64,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WFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hbGwsq/69NjbtnloqygAWFmPyeF4hAAAAA=='/></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 320 260" width="320" height="260" role="img" aria-labelledby="title desc">
+  <title id="title">BanBan under sakura rain</title>
+  <desc id="desc">An animated memorial stage that uses the local BanBan pet image with sakura rain and a soft halo.</desc>
+  <defs>
+    <path id="petal" d="M0 -7C6 -5 8 1 3 7C1 10 -2 10 -4 7C-8 1 -6 -5 0 -7Z"/>
+    <style>
+      .petalA{fill:#f6b6c8;opacity:.62}
+      .petalB{fill:#f9cbd8;opacity:.52}
+      .petalC{fill:#f2a9bf;opacity:.44}
+      .haloGlow{fill:none;stroke:#fff1a8;stroke-width:8;stroke-linecap:round;opacity:.38}
+      .haloRing{fill:none;stroke:#d9a928;stroke-width:4;stroke-linecap:round;opacity:.92}
+      .haloCore{fill:#fff1a8;opacity:.24}
+    </style>
+  </defs>
+  <rect width="320" height="260" fill="#fff" opacity="0"/>
+
+  <g transform="translate(48 -16)">
+    <use href="#petal" class="petalA"/>
+    <animateTransform attributeName="transform" type="translate" values="48 -16;72 230" dur="6.4s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="0;220" dur="6.4s" repeatCount="indefinite" additive="sum"/>
+  </g>
+  <g transform="translate(104 -42)">
+    <use href="#petal" class="petalB"/>
+    <animateTransform attributeName="transform" type="translate" values="104 -42;76 230" dur="7.2s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="20;260" dur="7.2s" repeatCount="indefinite" additive="sum"/>
+  </g>
+  <g transform="translate(160 -24)">
+    <use href="#petal" class="petalC"/>
+    <animateTransform attributeName="transform" type="translate" values="160 -24;194 230" dur="5.9s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="-18;210" dur="5.9s" repeatCount="indefinite" additive="sum"/>
+  </g>
+  <g transform="translate(224 -50)">
+    <use href="#petal" class="petalA"/>
+    <animateTransform attributeName="transform" type="translate" values="224 -50;268 230" dur="7.8s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="12;250" dur="7.8s" repeatCount="indefinite" additive="sum"/>
+  </g>
+  <g transform="translate(282 -22)">
+    <use href="#petal" class="petalB"/>
+    <animateTransform attributeName="transform" type="translate" values="282 -22;250 230" dur="6.7s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="-10;230" dur="6.7s" repeatCount="indefinite" additive="sum"/>
+  </g>
+
+  <ellipse cx="160" cy="232" rx="54" ry="8" fill="#d7c6c0" opacity=".24">
+    <animate attributeName="rx" values="49;58;49" dur="1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".16;.28;.16" dur="1s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <g transform-origin="160 146">
+    <animateTransform attributeName="transform" type="translate" values="-2 0;2 -7;-2 0" dur="1s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="-2 160 146;2 160 146;-2 160 146" dur="2s" repeatCount="indefinite" additive="sum"/>
+    <image x="64" y="42" width="192" height="208" preserveAspectRatio="xMidYMid meet" href="https://raw.githubusercontent.com/zbh0528/zbh0528/main/assets/ban-ban-wave.svg" xlink:href="https://raw.githubusercontent.com/zbh0528/zbh0528/main/assets/ban-ban-wave.svg"/>
+  </g>
+
+  <g class="halo" transform="translate(160 58)">
+    <ellipse class="haloGlow" rx="34" ry="9">
+      <animate attributeName="opacity" values=".24;.45;.24" dur="2.8s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse class="haloCore" rx="30" ry="8">
+      <animate attributeName="opacity" values=".10;.22;.10" dur="2.8s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse class="haloRing" rx="34" ry="9">
+      <animate attributeName="rx" values="31;35;31" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="ry" values="7.5;9.5;7.5" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".78;1;.78" dur="2.8s" repeatCount="indefinite"/>
+    </ellipse>
+    <animateTransform attributeName="transform" type="translate" values="160 58;160 54;160 58" dur="2.8s" repeatCount="indefinite"/>
+  </g>
+</svg>
