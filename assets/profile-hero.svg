@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-labelledby="title desc">
+  <title id="title">Baohang Zhang profile hero</title>
+  <desc id="desc">An Apple-inspired academic profile hero for Baohang Zhang, Ph.D. candidate in evolutionary optimization and wind energy systems.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset=".5" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f5fbf8"/>
+    </linearGradient>
+    <radialGradient id="blueAura" cx="38%" cy="38%" r="58%">
+      <stop offset="0" stop-color="#8fb9ff" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#8fb9ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mintAura" cx="70%" cy="52%" r="54%">
+      <stop offset="0" stop-color="#79d8ca" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#79d8ca" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violetAura" cx="58%" cy="76%" r="48%">
+      <stop offset="0" stop-color="#c9a9f2" stop-opacity=".30"/>
+      <stop offset="1" stop-color="#c9a9f2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#72a7f4"/>
+      <stop offset=".55" stop-color="#6ccfc0"/>
+      <stop offset="1" stop-color="#b69ae9"/>
+    </linearGradient>
+    <filter id="shadow" x="-12%" y="-18%" width="124%" height="136%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#405066" flood-opacity=".12"/>
+    </filter>
+    <style>
+      text {
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        fill: #172033;
+      }
+      .mono { font-family: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace; }
+      .kicker { font-size: 13px; font-weight: 760; fill: #6b788b; letter-spacing: 1px; }
+      .name { font-size: 54px; font-weight: 790; letter-spacing: -.8px; }
+      .subtitle { font-size: 18px; fill: #617086; }
+      .chip { font-size: 12px; font-weight: 680; fill: #4e6076; }
+      .stat { font-size: 13px; fill: #637286; }
+      .statValue { font-size: 18px; font-weight: 760; fill: #1f2938; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="360" rx="30" fill="url(#bg)"/>
+  <circle cx="405" cy="136" r="230" fill="url(#blueAura)">
+    <animate attributeName="r" values="210;242;210" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="725" cy="172" r="210" fill="url(#mintAura)">
+    <animate attributeName="cx" values="700;742;700" dur="7.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="560" cy="275" r="180" fill="url(#violetAura)">
+    <animate attributeName="cy" values="260;292;260" dur="6.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <g transform="translate(64 68)">
+    <text class="kicker mono" x="0" y="0">ACADEMIC PROFILE</text>
+    <text class="name" x="0" y="62">Baohang Zhang</text>
+    <text class="subtitle" x="3" y="98">Ph.D. Candidate in Artificial Intelligence and Evolutionary Optimization</text>
+    <text class="subtitle" x="3" y="126">University of Toyama, Japan</text>
+
+    <g transform="translate(0 166)">
+      <rect x="0" y="0" width="178" height="34" rx="17" fill="#ffffff" stroke="#dbe6f0" filter="url(#shadow)"/>
+      <circle cx="22" cy="17" r="6" fill="#72a7f4"/>
+      <text class="chip" x="40" y="22">Evolutionary Computation</text>
+      <rect x="194" y="0" width="172" height="34" rx="17" fill="#ffffff" stroke="#dbe6f0" filter="url(#shadow)"/>
+      <circle cx="216" cy="17" r="6" fill="#6ccfc0"/>
+      <text class="chip" x="234" y="22">Expensive Optimization</text>
+      <rect x="382" y="0" width="160" height="34" rx="17" fill="#ffffff" stroke="#dbe6f0" filter="url(#shadow)"/>
+      <circle cx="404" cy="17" r="6" fill="#e7bd7d"/>
+      <text class="chip" x="422" y="22">Wind Energy Systems</text>
+    </g>
+  </g>
+
+  <g transform="translate(678 78)" filter="url(#shadow)">
+    <rect x="0" y="0" width="254" height="204" rx="32" fill="#ffffff" fill-opacity=".86" stroke="#dfe8f1"/>
+    <path d="M42 134C75 104 101 114 129 86C156 58 181 66 216 34" fill="none" stroke="#dfe8ef" stroke-width="12" stroke-linecap="round"/>
+    <path d="M42 134C75 104 101 114 129 86C156 58 181 66 216 34" fill="none" stroke="url(#line)" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="10 10">
+      <animate attributeName="stroke-dashoffset" from="40" to="0" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <g stroke="#6f9fd8" stroke-width="2.2" fill="none" stroke-linecap="round">
+      <path d="M62 121V82M62 82L44 70M62 82L80 70M62 82L63 55"/>
+      <path d="M123 101V63M123 63L106 51M123 63L140 51M123 63L124 36"/>
+      <path d="M185 61V27M185 27L170 16M185 27L200 16M185 27L186 3"/>
+    </g>
+    <g fill="#ffffff" stroke="#b69ae9" stroke-width="2">
+      <circle cx="62" cy="121" r="9"/>
+      <circle cx="123" cy="101" r="9"/>
+      <circle cx="185" cy="61" r="9"/>
+    </g>
+    <path d="M60 110A25 25 0 0 1 86 121" fill="none" stroke="#e1b770" stroke-width="2.2" stroke-linecap="round">
+      <animate attributeName="opacity" values=".35;1;.35" dur="2.6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g transform="translate(64 296)">
+    <rect x="0" y="0" width="872" height="1.5" rx=".75" fill="url(#line)"/>
+    <g transform="translate(0 26)">
+      <text class="statValue" x="0" y="0">Structure-aware search</text>
+      <text class="stat" x="205" y="0">limited budgets</text>
+      <text class="stat" x="370" y="0">engineering constraints</text>
+      <text class="stat" x="575" y="0">reproducible artifacts</text>
+    </g>
+  </g>
+</svg>
