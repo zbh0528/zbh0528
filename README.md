@@ -77,7 +77,7 @@ My recent work connects algorithm design with renewable energy systems, especial
 
 <div align="center">
 
-<img alt="Academic research snapshot" src="./assets/research-snapshot.svg?v=54ed0dc" />
+<img alt="Academic research snapshot" src="https://raw.githubusercontent.com/zbh0528/zbh0528/54ed0dc02808498d60f70363bcaa8b3c4b16961b/assets/research-snapshot.svg" />
 
 <sub>Methods -> constrained optimization loop -> wind energy systems -> reproducible artifacts.</sub>
 
