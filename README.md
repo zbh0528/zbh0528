@@ -29,7 +29,7 @@
   <img alt="Reproducible Research" src="https://img.shields.io/badge/Reproducible%20Research-C7D2FE?style=flat-square&labelColor=08111F&color=C7D2FE" />
 </p>
 
-<img alt="斑斑 waving" src="./assets/ban-ban-wave.svg" width="118" />
+<img alt="斑斑 original waving frames" src="./assets/ban-ban-wave.svg" width="128" />
 
 <br />
 
@@ -73,17 +73,13 @@ My recent work connects algorithm design with renewable energy systems, especial
 
 ---
 
-## Dynamic Research Snapshot
+## Research Snapshot
 
 <div align="center">
 
-<img alt="Profile Details" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=zbh0528&theme=github_dark" />
+<img alt="Academic research snapshot" src="./assets/research-snapshot.svg" />
 
-<img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=zbh0528&theme=tokyonight&hide_border=true&background=0B1220&ring=66D9FF&fire=9EF3C5&currStreakLabel=9DB8FF" />
-
-<br />
-
-<img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=zbh0528&theme=tokyo-night&hide_border=true&bg_color=0B1220&color=9DB8FF&line=66D9FF&point=9EF3C5&area=true" />
+<sub>Methods -> constrained optimization loop -> wind energy systems -> reproducible artifacts.</sub>
 
 </div>
 
