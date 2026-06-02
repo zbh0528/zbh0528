@@ -1,6 +1,6 @@
 <div align="center">
 
-<img alt="Baohang Zhang academic profile hero" src="https://raw.githubusercontent.com/zbh0528/zbh0528/0d82e8305a37b1befc8dc9bd6ebf78ca92c1e59d/assets/profile-hero.svg" />
+<img alt="Baohang Zhang academic profile hero" src="https://raw.githubusercontent.com/zbh0528/zbh0528/f3b2a97fc86c86deec1958cf8742ad7091b76244/assets/profile-hero.svg" />
 
 <p>
   <a href="mailto:zbhsyx@163.com">
