@@ -13,7 +13,7 @@ Degree awarded in March 2026
 
 <br />
 
-<sub><b>斑斑</b> keeps the research loop moving.</sub><br />
+<sub><b>斑斑</b> keeps my research loop moving.</sub><br />
 <sub>虽然他去了鼠星，但我很想他。</sub>
 
 </div>
