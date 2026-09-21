@@ -36,19 +36,23 @@ My current work connects structure-aware evolutionary search with offshore wind 
 
 **Journal articles**
 
-1. **Baohang Zhang**, Yixin Shao, Zhenyu Lei, Chao Zhang, Yirui Wang, and Shangce Gao,<br />
+1. Ziqian Wang, Lei Ding, Xugang Wang, and **Baohang Zhang**,<br />
+   **[A balance-aware geometric multi-objective evolutionary algorithm for offshore wind farm layout optimization with capacity dependent cable cost evaluation](https://doi.org/10.1016/j.energy.2026.141798)**,<br />
+   *Energy*, vol. 360, Article 141798, September 2026. DOI: [`10.1016/j.energy.2026.141798`](https://doi.org/10.1016/j.energy.2026.141798)
+
+2. **Baohang Zhang**, Yixin Shao, Zhenyu Lei, Chao Zhang, Yirui Wang, and Shangce Gao,<br />
    **[A geometry-guided genetic algorithm for integrated offshore wind farm layout and electrical cable routing optimization](https://doi.org/10.1016/j.apenergy.2026.127895)**,<br />
    *Applied Energy*, vol. 415, Article 127895, July 2026. DOI: [`10.1016/j.apenergy.2026.127895`](https://doi.org/10.1016/j.apenergy.2026.127895)
 
-2. Zhe Xu, Lin Yang, Fenggang Yuan, **Baohang Zhang**, Jiatianyi Yu, and Xiaosha Qi,<br />
+3. Zhe Xu, Lin Yang, Fenggang Yuan, **Baohang Zhang**, Jiatianyi Yu, and Xiaosha Qi,<br />
    **[Dendritic Learning Empowered by Diversity-Aware Differential Evolution](https://doi.org/10.1109/ACCESS.2026.3669958)**,<br />
    *IEEE Access*, vol. 14, pp. 34879-34893, 2026. DOI: [`10.1109/ACCESS.2026.3669958`](https://doi.org/10.1109/ACCESS.2026.3669958)
 
-3. **Baohang Zhang**, Ziqian Wang, Haotian Li, Zhenyu Lei, Jiujun Cheng, and Shangce Gao,<br />
+4. **Baohang Zhang**, Ziqian Wang, Haotian Li, Zhenyu Lei, Jiujun Cheng, and Shangce Gao,<br />
    **[Information gain-based multi-objective evolutionary algorithm for feature selection](https://doi.org/10.1016/j.ins.2024.120901)**,<br />
    *Information Sciences*, vol. 677, Article 120901, August 2024. DOI: [`10.1016/j.ins.2024.120901`](https://doi.org/10.1016/j.ins.2024.120901)
 
-4. **Baohang Zhang**, Haichuan Yang, Tao Zheng, Rong-Long Wang, and Shangce Gao,<br />
+5. **Baohang Zhang**, Haichuan Yang, Tao Zheng, Rong-Long Wang, and Shangce Gao,<br />
    **[A Non-Revisiting Equilibrium Optimizer Algorithm](https://doi.org/10.1587/transinf.2022EDP7119)**,<br />
    *IEICE Transactions on Information and Systems*, vol. E106-D, no. 3, pp. 365-373, 2023. DOI: [`10.1587/transinf.2022EDP7119`](https://doi.org/10.1587/transinf.2022EDP7119)
 
