@@ -34,17 +34,13 @@ My current work connects structure-aware evolutionary search with offshore wind 
 
 ## JOURNAL PAPERS
 
-### 2026
+5\. **Baohang Zhang**, Yixin Shao, Zhe Xu, Zhenyu Lei, Xin Luo, Jiujun Cheng, and Shangce Gao\*, "[An Incremental Surrogate-Assisted Differential Evolution for Offshore Wind Farm Layout Optimization](https://doi.org/10.1109/TSMC.2026.3742716)," ***IEEE Transactions on Systems, Man, and Cybernetics: Systems***, 2026. DOI: [10.1109/TSMC.2026.3742716](https://doi.org/10.1109/TSMC.2026.3742716).
 
-4\. **Baohang Zhang**, Yixin Shao, Zhe Xu, Zhenyu Lei, Xin Luo, Jiujun Cheng, and Shangce Gao\*, "[An Incremental Surrogate-Assisted Differential Evolution for Offshore Wind Farm Layout Optimization](https://doi.org/10.1109/TSMC.2026.3742716)," ***IEEE Transactions on Systems, Man, and Cybernetics: Systems***, 2026. DOI: [10.1109/TSMC.2026.3742716](https://doi.org/10.1109/TSMC.2026.3742716).
+4\. **Baohang Zhang**, Yixin Shao, Zhenyu Lei, Chao Zhang, Yirui Wang, and Shangce Gao, "[A geometry-guided genetic algorithm for integrated offshore wind farm layout and electrical cable routing optimization](https://doi.org/10.1016/j.apenergy.2026.127895)," ***Applied Energy***, vol. 415, Article 127895, July 2026. DOI: [10.1016/j.apenergy.2026.127895](https://doi.org/10.1016/j.apenergy.2026.127895).
 
-3\. **Baohang Zhang**, Yixin Shao, Zhenyu Lei, Chao Zhang, Yirui Wang, and Shangce Gao, "[A geometry-guided genetic algorithm for integrated offshore wind farm layout and electrical cable routing optimization](https://doi.org/10.1016/j.apenergy.2026.127895)," ***Applied Energy***, vol. 415, Article 127895, July 2026. DOI: [10.1016/j.apenergy.2026.127895](https://doi.org/10.1016/j.apenergy.2026.127895).
-
-### 2024
+3\. Zhe Xu, **Baohang Zhang**, Jiatianyi Yu, Lin Yang, Fenggang Yuan, and Shangce Gao\*, "[An Improved Artificial Bee Colony Algorithm with Differential Analysis and Deduplication for Feature Selection](https://doi.org/10.1007/s44196-025-01022-z)," ***International Journal of Computational Intelligence Systems***, vol. 19, Article 6, 2026. DOI: [10.1007/s44196-025-01022-z](https://doi.org/10.1007/s44196-025-01022-z).
 
 2\. **Baohang Zhang**, Ziqian Wang, Haotian Li, Zhenyu Lei, Jiujun Cheng, and Shangce Gao, "[Information gain-based multi-objective evolutionary algorithm for feature selection](https://doi.org/10.1016/j.ins.2024.120901)," ***Information Sciences***, vol. 677, Article 120901, August 2024. DOI: [10.1016/j.ins.2024.120901](https://doi.org/10.1016/j.ins.2024.120901).
-
-### 2023
 
 1\. **Baohang Zhang**, Haichuan Yang, Tao Zheng, Rong-Long Wang, and Shangce Gao, "[A Non-Revisiting Equilibrium Optimizer Algorithm](https://doi.org/10.1587/transinf.2022EDP7119)," ***IEICE Transactions on Information and Systems***, vol. E106-D, no. 3, pp. 365-373, 2023. DOI: [10.1587/transinf.2022EDP7119](https://doi.org/10.1587/transinf.2022EDP7119).
 
