@@ -1,5 +1,8 @@
 <div align="center">
 
+<a href="https://commons.wikimedia.org/wiki/File:Mt._Tateyama_-_panoramio_-_jack9000.jpg"><img alt="Tateyama mountain panorama in Toyama, Japan" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Mt._Tateyama_-_panoramio_-_jack9000.jpg" width="100%" /></a>
+<sub>立山连峰 · Photo: jack9000 · <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></sub>
+
 # Baohang Zhang
 
 **Lecturer · Changzhou Institute of Technology, China**<br />
