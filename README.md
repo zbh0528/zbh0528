@@ -22,7 +22,7 @@ School of Computer and Information Engineering
 
 My research focuses on **evolutionary computation**, **surrogate modeling**, and **energy system optimization**. I study offshore wind farm layout and electrical cable routing, wake-aware yaw control, and evolutionary feature selection, with an emphasis on costly evaluations and coupled design variables.
 
-I received my **Ph.D. in Engineering (March 2026)** and **M.S. in Artificial Intelligence (2023)** from the **University of Toyama, Japan**. I am currently a **Lecturer** with the **School of Computer and Information Engineering, Changzhou Institute of Technology, China**.
+I received my **Ph.D. in Engineering (March 2026)** and **M.S. in Artificial Intelligence (March 2023)** from the **University of Toyama, Japan**. I am currently a **Lecturer** with the **School of Computer and Information Engineering, Changzhou Institute of Technology, China**.
 
 ## Journal Papers
 
