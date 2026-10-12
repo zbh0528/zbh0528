@@ -7,6 +7,15 @@ School of Computer and Information Engineering
 
 [Email](mailto:zbhsyx@163.com) · [Google Scholar](https://scholar.google.com.hk/citations?user=kKfWIUkAAAAJ&hl=zh-CN) · [ORCID](https://orcid.org/0000-0002-8612-0649)
 
+<br />
+
+<img alt="BanBan under soft animated sakura rain" src="./assets/banban-sakura-stage.svg" width="190" />
+
+<br />
+
+<sub><b>斑斑</b> keeps the research loop moving.</sub><br />
+<sub>虽然他去了鼠星，但我很想他。</sub>
+
 </div>
 
 ## About
@@ -32,12 +41,3 @@ I received my **Ph.D. in Engineering (March 2026)** and **M.S. in Artificial Int
 - **[WFLO-GGA](https://github.com/zbh0528/WFLO-GGA)** — Geometry-guided optimization for integrated offshore wind farm layout and cable routing.
 - **[Analytical Wake Model](https://github.com/zbh0528/Mass--and-momentum-conserving-analytical-wake-model)** — Mass- and momentum-conserving analytical wake modeling for wind farm analysis and optimization.
 
----
-
-<div align="center">
-
-<img alt="BanBan under soft animated sakura rain" src="./assets/banban-sakura-stage.svg" width="140" /><br />
-<sub><b>斑斑</b> keeps the research loop moving.</sub><br />
-<sub>虽然他去了鼠星，但我很想他。</sub>
-
-</div>
