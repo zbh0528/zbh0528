@@ -2,8 +2,9 @@
 
 # Baohang Zhang
 
-**Ph.D. in Engineering, University of Toyama, Japan**<br />
-Degree awarded in March 2026
+**Lecturer, Changzhou Institute of Technology, China**<br />
+School of Computer and Information Engineering<br />
+**Ph.D. in Engineering, University of Toyama, Japan**
 
 [Email](mailto:zbhsyx@163.com) | [Google Scholar](https://scholar.google.com.hk/citations?user=kKfWIUkAAAAJ&hl=zh-CN) | [ORCID](https://orcid.org/0000-0002-8612-0649) | [GitHub](https://github.com/zbh0528)
 
@@ -22,13 +23,16 @@ Degree awarded in March 2026
 
 ## Research Overview
 
-I received the **Ph.D. degree in Engineering** from the **University of Toyama, Japan**, in **March 2026**.
+I am a lecturer in the **School of Computer and Information Engineering, Changzhou Institute of Technology**, China. My research focuses on **evolutionary computation**, **surrogate modeling**, and **energy system optimization**.
 
-I study **evolutionary computation**, **expensive optimization**, and **wind energy optimization**, with a focus on optimization methods that remain reliable when evaluations are costly, design variables are coupled, and engineering constraints are explicit.
+I develop evolutionary optimization methods for offshore wind farm design, including turbine layout, electrical cable routing, and wake-aware yaw control. My work also covers multi-objective feature selection and non-revisiting search. I am particularly interested in using problem structure and surrogate models to guide search when design variables are coupled and objective evaluations are costly.
 
-My current work connects structure-aware evolutionary search with offshore wind farm layout optimization, electrical cable routing, wake-aware yaw control, feature selection, and reproducible engineering benchmarks.
+---
 
-**Main question:** How can evolutionary search remain reliable under limited evaluation budgets and real engineering constraints?
+## Education
+
+- **Ph.D. in Engineering** — University of Toyama, Japan, March 2026
+- **M.S. in Artificial Intelligence** — University of Toyama, Japan, 2023
 
 ---
 
@@ -48,11 +52,11 @@ My current work connects structure-aware evolutionary search with offshore wind 
 
 ## Current Work
 
-- Structure-aware evolutionary algorithms for wind energy systems
-- Expensive black-box optimization under limited evaluation budgets
-- Integrated offshore wind farm layout and cable routing optimization
-- Wake-aware yaw optimization with coupled variables
-- Reproducible optimization workflows for engineering applications
+- Incremental surrogate-assisted differential evolution for expensive optimization
+- Integrated offshore wind farm layout and electrical cable routing optimization
+- Wake-aware yaw optimization with coupled control variables
+- Evolutionary feature selection and diversity-preserving search
+- Reproducible computational experiments for engineering optimization
 
 ---
 
@@ -68,6 +72,6 @@ My current work connects structure-aware evolutionary search with offshore wind 
 
 <div align="center">
 
-`Evolutionary Computation` | `Expensive Optimization` | `Wind Energy Optimization`
+`Evolutionary Computation` | `Surrogate-Assisted Optimization` | `Wind Energy Optimization`
 
 </div>
